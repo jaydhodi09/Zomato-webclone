@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Restaurant</title>
+    <link rel="stylesheet" href="css/addrest.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="investor.html">Investor Relations</a></li>
+            <li><a href="add-restaurant.html">Add Restaurant</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </header>
+
+    <section class="add-restaurant">
+        <h1>List Your Restaurant</h1>
+        <p>Join us and grow your business by reaching millions of customers.</p>
+
+        <form action="#" method="POST">
+            <div>
+                <label for="name">Restaurant Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your restaurant name" required>
+            </div>
+            <div>
+                <label for="owner">Owner Name</label>
+                <input type="text" id="owner" name="owner" placeholder="Enter owner's full name" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter contact number" required>
+            </div>
+            <div>
+                <label for="address">Restaurant Address</label>
+                <textarea id="address" name="address" placeholder="Enter your restaurant address" required></textarea>
+            </div>
+            <div>
+                <label for="cuisine">Cuisine Type</label>
+                <select id="cuisine" name="cuisine">
+                    <option value="indian">Indian</option>
+                    <option value="italian">Italian</option>
+                    <option value="chinese">Chinese</option>
+                    <option value="mexican">Mexican</option>
+                    <option value="continental">Continental</option>
+                </select>
+            </div>
+            <div>
+                <label for="image">Upload Restaurant Image</label>
+                <input type="file" id="image" name="image" accept="image/*">
+            </div>
+            <div>
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 | All Rights Reserved</p>
+    </footer>
+</body>
+</html>

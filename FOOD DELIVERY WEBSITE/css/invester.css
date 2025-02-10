@@ -1,0 +1,145 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d63031; /* Red Theme */
+    padding: 15px 50px;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+header ul li a:hover {
+    background: #ff7675;
+}
+
+/* Hero Section */
+.hero-section {
+    background: #d63031;
+    color: white;
+    padding: 80px 20px;
+    border-bottom: 5px solid #b22222;
+}
+
+.hero-section h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 18px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Info Sections */
+.info-section {
+    background: white;
+    color: black;
+    text-align: center;
+    padding: 50px 20px;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.info-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.info-section h2 {
+    color: #d63031;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.info-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #e74c3c;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: #b22222;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}

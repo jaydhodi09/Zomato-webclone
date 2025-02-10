@@ -1,0 +1,154 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/page.png') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    height: fit-content;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d63031; /* Red Theme */
+    padding: 15px 50px;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header ul li a:hover {
+    color: #ff7675;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Allow scrolling if needed */
+    padding-bottom: 100px; /* To prevent overlap with footer */
+}
+
+main img {
+    width: 300px;
+}
+
+main p {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+main input {
+    width: 50%;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+/* Food Delivery Section */
+.food-delivery {
+    text-align: center;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.food-delivery h2 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+/* Features Grid */
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.feature img {
+    width: 80px; /* Adjust as needed */
+    height: auto;
+    background: none; /* Removes any unwanted background */
+    mix-blend-mode: multiply; /* Helps blend with the page if needed */
+    filter: drop-shadow(2px 2px 5px rgba(6, 6, 6, 0.2)); /* Adds a slight shadow */
+}
+
+.feature h3 {
+    color: #ffdddd;
+    font-size: 22px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+/* Order Now Button */
+.order-now {
+    display: inline-block;
+    background: #e74c3c;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.order-now:hover {
+    background: #c0392b;
+}
+
+
+/* Footer */
+footer {
+    background: #b22222;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
