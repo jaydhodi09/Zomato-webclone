@@ -8,10 +8,10 @@ This is a basic HTML, CSS, and JavaScript project that replicates the core struc
 ## 🖼️ Screenshots
 
 ### 🔹 Home Page
-![Home Page](./screenshots/home.png)
+![Home Page](home.png)
 
 ### 🔹 Login Page
-![Login Page](./screenshots/login.png)
+![Login Page](login.png)
 
 ---
 
@@ -82,7 +82,8 @@ zomato-clone/
 
 ## 📬 Contact
 
-Feel free to connect with me via [your email or LinkedIn here].
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:jaydhodi14@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jaydhodi14/)
 
 ---
 
